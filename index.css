@@ -1,93 +1,117 @@
-* {box-sizing: border-box;}
+* {
+  box-sizing: border-box;
+}
 
-html{
+html {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
 
-body{
-  margin:0;
-  width:100vw;
+body {
+  margin: 0;
+  width: 100vw;
 }
 
-.block{
-  padding:1px;
-  margin:0;
-  padding:2rem 0 2rem;
+a {
+  text-decoration:none;
+  color:black;
+  padding: 0 .5rem 0 .5rem;
+}
+
+a:visited{
+  text-decoration:none;
+  color:black;
+}
+
+.block {
+  padding: 1px;
+  margin: 0;
+  padding: 3rem 0 3rem;
 }
 
 .inner-block {
-  width:50%;
-margin:auto;
+  width: 50%;
+  margin: auto;
 }
 
-#nav{
-  text-align:center;
-  padding:1rem 0 1rem;
+#nav {
+  text-align: center;
+  padding: 1rem 0 1rem;
 }
 
 #hero-text {
-  color:white;
-  border-bottom:white 3px solid;
-  position:absolute;
+  color: white;
+  border-bottom: white .5rem solid;
+  position: absolute;
   left: 5rem;
-  top:2.5rem;
-  font-size:3rem;
+  font-size: 3rem;
   font-weight: 700;
+  
 }
 
 #hero {
   background-image: url('img/banner.jpg');
-  height:300px;
+  height: 400px;
 }
 
-#mission{
-  background-color:#FFE964;
-  text-align:center;
-
+#mission {
+  background-color: #FFE964;
+  text-align: center;
 }
 
-#about-us{
-  background-color:#white;
+#about-us {
+  background-color: #white;
 }
 
-#our-team{
-  background-color:#FF523D;
-  color:white;
+#our-team {
+  background-color: #FF523D;
+  color: white;
 }
 
-#our-team img{
-  border-radius:10px;
-  margin:auto;
+#our-team img {
+  border-radius: 10px;
+  margin: auto;
 }
 
-#footer{
+#footer {
   background-color: #223C88;
+  color: white;
 }
 
 h2 {
-  font-size: 1.5rem;
-  padding-top:2rem;
-  font-weight:700;
+  font-size: 2rem;
+  padding-top: 2rem;
+  font-weight: 900;
 }
 
-#name{
-  font-weight:700;
+#name {
+  font-weight: 700;
   text-align: center;
 }
-#job-title{}
 
-.card{
-  text-align:center;
+#job-title {}
+
+.card {
+  text-align: center;
   padding: 2rem 0 2rem;
 }
 
+#y {
+  color: #FFE964;
+}
 
-#y{color:#FFE964;}
+#r {
+  color: #FF523D;
+}
 
-#r{color:#FF523D;}
+#b {
+  color: #223C88;
+}
 
-#b{color:#223C88;}
+img{
+  width:30%;
+  padding-bottom:.5rem;
+}
 
 /* background 1
 HEX #FFFFFF // white
