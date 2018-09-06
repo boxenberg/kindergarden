@@ -1,0 +1,110 @@
+* {box-sizing: border-box;}
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+
+body{
+  margin:0;
+  width:100vw;
+}
+
+.block{
+  padding:1px;
+  margin:0;
+  padding:2rem 0 2rem;
+}
+
+.inner-block {
+  width:50%;
+margin:auto;
+}
+
+#nav{
+  text-align:center;
+  padding:1rem 0 1rem;
+}
+
+#hero-text {
+  color:white;
+  border-bottom:white 3px solid;
+  position:absolute;
+  left: 5rem;
+  top:2.5rem;
+  font-size:3rem;
+  font-weight: 700;
+}
+
+#hero {
+  background-image: url('img/banner.jpg');
+  height:300px;
+}
+
+#mission{
+  background-color:#FFE964;
+  text-align:center;
+
+}
+
+#about-us{
+  background-color:#white;
+}
+
+#our-team{
+  background-color:#FF523D;
+  color:white;
+}
+
+#our-team img{
+  border-radius:10px;
+  margin:auto;
+}
+
+#footer{
+  background-color: #223C88;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-top:2rem;
+  font-weight:700;
+}
+
+#name{
+  font-weight:700;
+  text-align: center;
+}
+#job-title{}
+
+.card{
+  text-align:center;
+  padding: 2rem 0 2rem;
+}
+
+
+#y{color:#FFE964;}
+
+#r{color:#FF523D;}
+
+#b{color:#223C88;}
+
+/* background 1
+HEX #FFFFFF // white
+
+background 2
+HEX #FFE964 // yellow
+
+background 3
+HEX #FF523D // red
+
+background 4
+HEX #223C88 // blue
+
+text
+HEX #000000 // black
+
+fonts 
+Roboto Normal - for regular text
+Roboto Bold - for bold text
+Roboto Heavy - for headings
